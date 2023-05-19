@@ -11,13 +11,17 @@ git clone <repo-url>
 ```bash
 pip install -r requirements.txt
 ```
-
+## init db
+ ```
+ flask --app core init-db
+ ```
+ 
 ## Running The App
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 ## Viewing The App
 
-Go to `http://127.0.0.1:5000`
+Go to `http://127.0.0.1:8000`
